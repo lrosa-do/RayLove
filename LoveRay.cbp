@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LoveRay" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/LoveRay" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-w" />
+					<Add option="-g" />
+					<Add option="-DLUA_USE_LINUX" />
+					<Add option="-DLUA_COMPAT_5_3" />
+					<Add option="-DPLATFORM_DESKTOP" />
+					<Add option="-DGRAPHICS_API_OPENGL_33" />
+					<Add directory="modules" />
+					<Add directory="include" />
+					<Add directory="src" />
+					<Add directory="lua" />
+				</Compiler>
+				<Linker>
+					<Add option="-lSDL2" />
+					<Add option="-lGL" />
+					<Add option="-lm" />
+					<Add option="-ldl" />
+					<Add option="-lpthread" />
+					<Add directory="lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/LoveRay" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="include/cmixer.h" />
+		<Unit filename="include/config.h" />
+		<Unit filename="include/dmt.h" />
+		<Unit filename="include/filesystem.h" />
+		<Unit filename="include/lovesdl.h" />
+		<Unit filename="include/luaobj.h" />
+		<Unit filename="include/microtar.h" />
+		<Unit filename="include/miniray.h" />
+		<Unit filename="include/raymath.h" />
+		<Unit filename="include/rcamera.h" />
+		<Unit filename="include/rgestures.h" />
+		<Unit filename="include/rlgl.h" />
+		<Unit filename="lua/lapi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/lapi.h" />
+		<Unit filename="lua/lauxlib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/lauxlib.h" />
+		<Unit filename="lua/lbaselib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/lcode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/lcode.h" />
+		<Unit filename="lua/lcorolib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/lctype.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/lctype.h" />
+		<Unit filename="lua/ldblib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/ldebug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/ldebug.h" />
+		<Unit filename="lua/ldo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/ldo.h" />
+		<Unit filename="lua/ldump.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/lfunc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/lfunc.h" />
+		<Unit filename="lua/lgc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/lgc.h" />
+		<Unit filename="lua/linit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/liolib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/ljumptab.h" />
+		<Unit filename="lua/llex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/llex.h" />
+		<Unit filename="lua/llimits.h" />
+		<Unit filename="lua/lmathlib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/lmem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/lmem.h" />
+		<Unit filename="lua/loadlib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/lobject.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/lobject.h" />
+		<Unit filename="lua/lopcodes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/lopcodes.h" />
+		<Unit filename="lua/lopnames.h" />
+		<Unit filename="lua/loslib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/lparser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/lparser.h" />
+		<Unit filename="lua/lprefix.h" />
+		<Unit filename="lua/lstate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/lstate.h" />
+		<Unit filename="lua/lstring.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/lstring.h" />
+		<Unit filename="lua/lstrlib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/ltable.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/ltable.h" />
+		<Unit filename="lua/ltablib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/ltm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/ltm.h" />
+		<Unit filename="lua/lua.h" />
+		<Unit filename="lua/lua.hpp" />
+		<Unit filename="lua/luaconf.h" />
+		<Unit filename="lua/lualib.h" />
+		<Unit filename="lua/lundump.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/lundump.h" />
+		<Unit filename="lua/lutf8lib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/lvm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/lvm.h" />
+		<Unit filename="lua/lzio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lua/lzio.h" />
+		<Unit filename="modules/font_ttf.h" />
+		<Unit filename="modules/l_audio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modules/l_event.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modules/l_filesystem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modules/l_font.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modules/l_graphics.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modules/l_image.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modules/l_keyboard.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modules/l_love.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modules/l_mouse.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modules/l_quad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modules/l_source.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modules/l_system.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="modules/l_timer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/cmixer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/cmixer.h" />
+		<Unit filename="src/core.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/dmt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/dmt.h" />
+		<Unit filename="src/filesystem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/filesystem.h" />
+		<Unit filename="src/luaobj.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/luaobj.h" />
+		<Unit filename="src/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/microtar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/microtar.h" />
+		<Unit filename="src/miniray.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/stb_image.h" />
+		<Unit filename="src/stb_image_resize.h" />
+		<Unit filename="src/stb_image_write.h" />
+		<Unit filename="src/stb_rect_pack.h" />
+		<Unit filename="src/stb_truetype.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

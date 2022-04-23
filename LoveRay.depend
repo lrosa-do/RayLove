@@ -1,0 +1,1728 @@
+# depslib dependency file v1.0
+1650213807 source:/media/djoker/code/linux/c/LoveRay/modules/l_audio.c
+	"luaobj.h"
+
+1650201628 /media/djoker/code/linux/c/LoveRay/src/luaobj.h
+	<stdint.h>
+	"lua/lua.h"
+	"lua/lualib.h"
+	"lua/lauxlib.h"
+
+1642073083 /media/djoker/code/linux/c/LoveRay/include/lua/lua.h
+	<stdarg.h>
+	<stddef.h>
+	"luaconf.h"
+
+1642073083 /media/djoker/code/linux/c/LoveRay/include/lua/luaconf.h
+	<limits.h>
+	<stddef.h>
+	<stdint.h>
+	<assert.h>
+
+1642073083 /media/djoker/code/linux/c/LoveRay/include/lua/lualib.h
+	"lua.h"
+
+1642073080 /media/djoker/code/linux/c/LoveRay/include/lua/lauxlib.h
+	<stddef.h>
+	<stdio.h>
+	"luaconf.h"
+	"lua.h"
+	<assert.h>
+
+1650198778 source:/media/djoker/code/linux/c/LoveRay/modules/l_filesystem.c
+	"lovesdl.h"
+	"filesystem.h"
+	"luaobj.h"
+	<sys/stat.h>
+	<dirent.h>
+
+1650213368 /media/djoker/code/linux/c/LoveRay/src/lovesdl.h
+	"dmt.h"
+	"luaobj.h"
+	<SDL2/SDL.h>
+
+1650197309 /media/djoker/code/linux/c/LoveRay/src/dmt.h
+	<stdio.h>
+
+1494059526 /media/djoker/code/linux/c/LoveRay/src/filesystem.h
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+
+1650048082 source:/media/djoker/code/linux/c/LoveRay/modules/l_keyboard.c
+	"luaobj.h"
+	"lovesdl.h"
+	<string.h>
+	<ctype.h>
+
+1650213844 source:/media/djoker/code/linux/c/LoveRay/modules/l_source.c
+	<string.h>
+	"cmixer.h"
+	"filesystem.h"
+	"luaobj.h"
+
+1494059526 /media/djoker/code/linux/c/LoveRay/src/cmixer.h
+
+1650200904 source:/media/djoker/code/linux/c/LoveRay/modules/l_system.c
+	<windows.h>
+	<unistd.h>
+	<mach-o/dyld.h>
+	"luaobj.h"
+	"lovesdl.h"
+
+1650102520 source:/media/djoker/code/linux/c/LoveRay/modules/l_timer.c
+	<windows.h>
+	<sys/time.h>
+	<time.h>
+	"luaobj.h"
+	"lovesdl.h"
+
+1650214199 source:/media/djoker/code/linux/c/LoveRay/modules/l_love.c
+	"lovesdl.h"
+	"luaobj.h"
+
+1650649340 /media/djoker/code/linux/c/LoveRay/include/miniray.h
+	<SDL2/SDL.h>
+	<stdarg.h>
+	<stdbool.h>
+	<stdbool.h>
+
+1650197956 source:/media/djoker/code/linux/c/LoveRay/src/dmt.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"dmt.h"
+	<execinfo.h>
+
+1650197389 source:/media/djoker/code/linux/c/LoveRay/src/filesystem.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	<dirent.h>
+	<sys/stat.h>
+	<SDL2/SDL.h>
+	"microtar.h"
+	"filesystem.h"
+	"dmt.h"
+
+1650100784 /media/djoker/code/linux/c/LoveRay/src/microtar.h
+	<stdio.h>
+	<stdlib.h>
+
+1650201805 source:/media/djoker/code/linux/c/LoveRay/src/luaobj.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"luaobj.h"
+
+1494059526 source:/media/djoker/code/linux/c/LoveRay/src/microtar.c
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<string.h>
+	"microtar.h"
+
+1650218677 source:/media/djoker/code/linux/c/LoveRay/modules/l_event.c
+	"miniray.h"
+	"lovesdl.h"
+	"luaobj.h"
+
+1650217045 source:/media/djoker/code/linux/c/LoveRay/modules/l_font.c
+	"miniray.h"
+	"luaobj.h"
+	"lovesdl.h"
+	"font_ttf.h"
+
+1649964463 /media/djoker/code/linux/c/LoveRay/modules/font_ttf.h
+
+1650197309 /media/djoker/code/linux/c/LoveRay/include/dmt.h
+	<stdio.h>
+
+1650100784 /media/djoker/code/linux/c/LoveRay/include/microtar.h
+	<stdio.h>
+	<stdlib.h>
+
+1494059526 /media/djoker/code/linux/c/LoveRay/include/filesystem.h
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+
+1650201628 /media/djoker/code/linux/c/LoveRay/include/luaobj.h
+	<stdint.h>
+	"lua/lua.h"
+	"lua/lualib.h"
+	"lua/lauxlib.h"
+
+1650221423 /media/djoker/code/linux/c/LoveRay/include/lovesdl.h
+	"miniray.h"
+	"dmt.h"
+	"luaobj.h"
+	<SDL2/SDL.h>
+	<stdbool.h>
+
+1494059526 /media/djoker/code/linux/c/LoveRay/include/cmixer.h
+
+1650198924 source:/media/djoker/code/linux/c/LoveRay/src/cmixer.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"dmt.h"
+	"cmixer.h"
+	"stb_vorbis.c"
+
+1650214400 source:/media/djoker/code/linux/c/LoveRay/src/core.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<math.h>
+	<sys/stat.h>
+	"dmt.h"
+
+1650651562 source:/media/djoker/code/linux/c/LoveRay/modules/l_graphics.c
+	<string.h>
+	<stdlib.h>
+	"dmt.h"
+	"miniray.h"
+	"lovesdl.h"
+	"luaobj.h"
+
+1650045226 source:/media/djoker/code/linux/c/LoveRay/modules/l_mouse.c
+	"luaobj.h"
+	"lovesdl.h"
+
+1650219341 source:/media/djoker/code/linux/c/LoveRay/modules/l_image.c
+	"miniray.h"
+	"lovesdl.h"
+	"luaobj.h"
+
+1650218136 source:/media/djoker/code/linux/c/LoveRay/modules/l_quad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"luaobj.h"
+	"lovesdl.h"
+
+1650649437 source:/media/djoker/code/linux/c/LoveRay/src/miniray.c
+	"miniray.h"
+	<stdlib.h>
+	<stdio.h>
+	<stdarg.h>
+	<string.h>
+	"config.h"
+	"raymath.h"
+	"rgestures.h"
+	"rcamera.h"
+	"external/msf_gif.h"
+	"external/sinfl.h"
+	"external/sdefl.h"
+	<unistd.h>
+	<sys/syslimits.h>
+	<mach-o/dyld.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<math.h>
+	<sys/stat.h>
+	"external/dirent.h"
+	<dirent.h>
+	<direct.h>
+	<io.h>
+	<unistd.h>
+	<sys/time.h>
+	<unistd.h>
+	<EGL/egl.h>
+	<sys/time.h>
+	<emscripten/emscripten.h>
+	<emscripten/html5.h>
+	"external/stb_rect_pack.h"
+	"external/stb_truetype.h"
+	<math.h>
+	<float.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<stdio.h>
+	"external/stb_image.h"
+	"external/qoi.h"
+	"external/stb_image_write.h"
+	"external/stb_image_resize.h"
+	<SDL2/SDL_opengl.h>
+	<SDL2/SDL_opengl_glext.h>
+	<SDL2/SDL_opengles2.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"external/tinyobj_loader_c.h"
+	"external/cgltf.h"
+	"external/vox_loader.h"
+	"external/par_shapes.h"
+	<direct.h>
+	<unistd.h>
+	<windows.h>
+	<objbase.h>
+	<mmreg.h>
+	<mmsystem.h>
+	"propidl.h"
+	"external/miniaudio.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"external/stb_vorbis.h"
+	"external/jar_xm.h"
+	"external/jar_mod.h"
+	"external/dr_wav.h"
+	"external/dr_mp3.h"
+	"external/dr_flac.h"
+
+1650099838 /media/djoker/code/linux/c/LoveRay/include/config.h
+
+1650220498 /media/djoker/code/linux/c/LoveRay/include/rlgl.h
+
+1649693623 /media/djoker/code/linux/c/LoveRay/include/raymath.h
+	<math.h>
+
+1649693623 /media/djoker/code/linux/c/LoveRay/include/rgestures.h
+	<stdbool.h>
+	<sys/time.h>
+	<time.h>
+	<math.h>
+	<mach/clock.h>
+	<mach/mach.h>
+
+1649693623 /media/djoker/code/linux/c/LoveRay/include/rcamera.h
+	<math.h>
+
+1649693623 /media/djoker/code/linux/c/LoveRay/include/external/msf_gif.h
+	"msf_gif.h"
+	<stdint.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<intrin.h>
+	<emmintrin.h>
+
+1649693623 /media/djoker/code/linux/c/LoveRay/include/external/sinfl.h
+	<string.h>
+	<assert.h>
+	<emmintrin.h>
+	<arm_neon.h>
+
+1649693623 /media/djoker/code/linux/c/LoveRay/include/external/sdefl.h
+	<assert.h>
+	<string.h>
+	<limits.h>
+
+1649693623 /media/djoker/code/linux/c/LoveRay/include/external/dirent.h
+	<io.h>
+	<stdlib.h>
+	<string.h>
+	<errno.h>
+
+1649693623 /media/djoker/code/linux/c/LoveRay/include/external/stb_rect_pack.h
+	<stdlib.h>
+	<assert.h>
+
+1649693623 /media/djoker/code/linux/c/LoveRay/include/external/stb_truetype.h
+	"stb_truetype.h"
+	<stdio.h>
+	"stb_truetype.h"
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<string.h>
+
+1649693623 /media/djoker/code/linux/c/LoveRay/include/external/stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1649693623 /media/djoker/code/linux/c/LoveRay/include/external/qoi.h
+	"qoi.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1649693623 /media/djoker/code/linux/c/LoveRay/include/external/stb_image_write.h
+	<stdlib.h>
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<assert.h>
+
+1649693623 /media/djoker/code/linux/c/LoveRay/include/external/stb_image_resize.h
+	"stb_image_resize.h"
+	<stdint.h>
+	<assert.h>
+	<string.h>
+	<math.h>
+	<stdlib.h>
+
+1649693623 /media/djoker/code/linux/c/LoveRay/include/external/miniaudio.h
+	"miniaudio.h"
+	"miniaudio.h"
+	"extras/stb_vorbis.c"
+	"miniaudio.h"
+	"extras/stb_vorbis.c"
+	<stddef.h>
+	<stdint.h>
+	<pthread.h>
+	<stdalign.h>
+	<stdarg.h>
+	<assert.h>
+	<limits.h>
+	<math.h>
+	<stdarg.h>
+	<stdio.h>
+	<strings.h>
+	<wchar.h>
+	<float.h>
+	<windows.h>
+	<stdlib.h>
+	<string.h>
+	<sched.h>
+	<sys/time.h>
+	<pthread.h>
+	<sys/stat.h>
+	<emscripten/emscripten.h>
+	<stdint.h>
+	<immintrin.h>
+	<emmintrin.h>
+	<arm_neon.h>
+	<intrin.h>
+	<errno.h>
+	<stdint.h>
+	<intrin.h>
+	<objbase.h>
+	<mmreg.h>
+	<mmsystem.h>
+	<mach/mach_time.h>
+	<sys/types.h>
+	<unistd.h>
+	<dlfcn.h>
+	<audioclient.h>
+	<mmdeviceapi.h>
+	<mmdeviceapi.h>
+	<poll.h>
+	<sys/eventfd.h>
+	<alsa/asoundlib.h>
+	<errno.h>
+	<pulse/pulseaudio.h>
+	<jack/jack.h>
+	<TargetConditionals.h>
+	<CoreAudio/CoreAudio.h>
+	<AVFoundation/AVFoundation.h>
+	<AudioToolbox/AudioToolbox.h>
+	<fcntl.h>
+	<sys/audioio.h>
+	<sys/soundcard.h>
+	<fcntl.h>
+	<poll.h>
+	<errno.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<sys/ioctl.h>
+	<sys/audioio.h>
+	<sys/param.h>
+	<sys/ioctl.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/soundcard.h>
+	<SLES/OpenSLES.h>
+	<SLES/OpenSLES_Android.h>
+	<emscripten/emscripten.h>
+	<stddef.h>
+	<stddef.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<stdio.h>
+	<wchar.h>
+	<assert.h>
+	<errno.h>
+	<endian.h>
+	<stdlib.h>
+	<string.h>
+	<smmintrin.h>
+	<emmintrin.h>
+	<arm_neon.h>
+	<intrin.h>
+	<assert.h>
+	<intrin.h>
+	<stdio.h>
+	<wchar.h>
+	<errno.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<intrin.h>
+	<emmintrin.h>
+	<arm_neon.h>
+	<assert.h>
+	<math.h>
+	<stdio.h>
+	<wchar.h>
+	<errno.h>
+
+1649693623 /media/djoker/code/linux/c/LoveRay/include/external/stb_vorbis.h
+	<stdio.h>
+	"utils.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<math.h>
+	<malloc.h>
+	<alloca.h>
+	<limits.h>
+	<crtdbg.h>
+
+1649693623 /media/djoker/code/linux/c/LoveRay/include/external/jar_xm.h
+	<stdint.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	<string.h>
+	<stdio.h>
+	"raylib.h"
+
+1649693623 /media/djoker/code/linux/c/LoveRay/include/external/jar_mod.h
+	<stdio.h>
+	<stdlib.h>
+
+1649693623 /media/djoker/code/linux/c/LoveRay/include/external/dr_wav.h
+	"dr_wav.h"
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<stdio.h>
+	<wchar.h>
+	<assert.h>
+	<errno.h>
+
+1649693623 /media/djoker/code/linux/c/LoveRay/include/external/dr_mp3.h
+	"dr_mp3.h"
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<intrin.h>
+	<emmintrin.h>
+	<arm_neon.h>
+	<assert.h>
+	<math.h>
+	<stdio.h>
+	<wchar.h>
+	<errno.h>
+
+1649693623 /media/djoker/code/linux/c/LoveRay/include/external/dr_flac.h
+	"dr_flac.h"
+	<stddef.h>
+	<endian.h>
+	<stdlib.h>
+	<string.h>
+	<smmintrin.h>
+	<emmintrin.h>
+	<arm_neon.h>
+	<intrin.h>
+	<assert.h>
+	<intrin.h>
+	<stdio.h>
+	<wchar.h>
+	<errno.h>
+
+1649693623 /media/djoker/code/linux/c/LoveRay/include/external/tinyobj_loader_c.h
+	<stdio.h>
+	<assert.h>
+	<string.h>
+	<errno.h>
+	<stdlib.h>
+
+1649693623 /media/djoker/code/linux/c/LoveRay/include/external/cgltf.h
+	<stddef.h>
+	<stdint.h>
+	<string.h>
+	<stdio.h>
+	<limits.h>
+	<float.h>
+	<stdlib.h>
+
+1649693623 /media/djoker/code/linux/c/LoveRay/include/external/vox_loader.h
+	"vox_loader.h"
+	<string.h>
+	<stdlib.h>
+
+1649693623 /media/djoker/code/linux/c/LoveRay/include/external/par_shapes.h
+	<stdint.h>
+	<stdbool.h>
+	<stdbool.h>
+	<stdlib.h>
+	<stdio.h>
+	<assert.h>
+	<float.h>
+	<string.h>
+	<math.h>
+	<errno.h>
+
+1650217614 source:/media/djoker/code/linux/c/LoveRay/src/main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	"miniray.h"
+	"lovesdl.h"
+	"lua/lua.h"
+	"lua/lualib.h"
+	"lua/lauxlib.h"
+	"nogame_lua.h"
+	"boot_lua.h"
+
+1642073080 source:/media/djoker/code/projects/RayLove/lua/lauxlib.c
+	"lprefix.h"
+	<errno.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	<sys/wait.h>
+
+1642073082 /media/djoker/code/projects/RayLove/lua/lprefix.h
+
+1642073083 /media/djoker/code/projects/RayLove/lua/lua.h
+	<stdarg.h>
+	<stddef.h>
+	"luaconf.h"
+
+1642073083 /media/djoker/code/projects/RayLove/lua/luaconf.h
+	<limits.h>
+	<stddef.h>
+	<stdint.h>
+	<assert.h>
+
+1642073080 /media/djoker/code/projects/RayLove/lua/lauxlib.h
+	<stddef.h>
+	<stdio.h>
+	"luaconf.h"
+	"lua.h"
+	<assert.h>
+
+1642073080 source:/media/djoker/code/projects/RayLove/lua/lbaselib.c
+	"lprefix.h"
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1642073083 /media/djoker/code/projects/RayLove/lua/lualib.h
+	"lua.h"
+
+1642073080 source:/media/djoker/code/projects/RayLove/lua/lcorolib.c
+	"lprefix.h"
+	<stdlib.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1642073080 source:/media/djoker/code/projects/RayLove/lua/lctype.c
+	"lprefix.h"
+	"lctype.h"
+	<limits.h>
+
+1642073080 /media/djoker/code/projects/RayLove/lua/lctype.h
+	"lua.h"
+	<limits.h>
+	"llimits.h"
+	<ctype.h>
+
+1642073081 /media/djoker/code/projects/RayLove/lua/llimits.h
+	<limits.h>
+	<stddef.h>
+	"lua.h"
+	<assert.h>
+
+1642073081 source:/media/djoker/code/projects/RayLove/lua/ldblib.c
+	"lprefix.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1642073081 source:/media/djoker/code/projects/RayLove/lua/linit.c
+	"lprefix.h"
+	<stddef.h>
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+
+1642073079 source:/media/djoker/code/projects/RayLove/lua/lapi.c
+	"lprefix.h"
+	<limits.h>
+	<stdarg.h>
+	<string.h>
+	"lua.h"
+	"lapi.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lundump.h"
+	"lvm.h"
+
+1642073080 /media/djoker/code/projects/RayLove/lua/lapi.h
+	"llimits.h"
+	"lstate.h"
+
+1642073082 /media/djoker/code/projects/RayLove/lua/lstate.h
+	"lua.h"
+	"lobject.h"
+	"ltm.h"
+	"lzio.h"
+	<signal.h>
+
+1642073082 /media/djoker/code/projects/RayLove/lua/lobject.h
+	<stdarg.h>
+	"llimits.h"
+	"lua.h"
+
+1642073082 /media/djoker/code/projects/RayLove/lua/ltm.h
+	"lobject.h"
+
+1642073083 /media/djoker/code/projects/RayLove/lua/lzio.h
+	"lua.h"
+	"lmem.h"
+
+1642073082 /media/djoker/code/projects/RayLove/lua/lmem.h
+	<stddef.h>
+	"llimits.h"
+	"lua.h"
+
+1642073081 /media/djoker/code/projects/RayLove/lua/ldebug.h
+	"lstate.h"
+
+1642073081 /media/djoker/code/projects/RayLove/lua/ldo.h
+	"lobject.h"
+	"lstate.h"
+	"lzio.h"
+
+1642073081 /media/djoker/code/projects/RayLove/lua/lfunc.h
+	"lobject.h"
+
+1642073081 /media/djoker/code/projects/RayLove/lua/lgc.h
+	"lobject.h"
+	"lstate.h"
+
+1642073082 /media/djoker/code/projects/RayLove/lua/lstring.h
+	"lgc.h"
+	"lobject.h"
+	"lstate.h"
+
+1642073082 /media/djoker/code/projects/RayLove/lua/ltable.h
+	"lobject.h"
+
+1642073083 /media/djoker/code/projects/RayLove/lua/lundump.h
+	"llimits.h"
+	"lobject.h"
+	"lzio.h"
+
+1642073083 /media/djoker/code/projects/RayLove/lua/lvm.h
+	"ldo.h"
+	"lobject.h"
+	"ltm.h"
+
+1642073080 source:/media/djoker/code/projects/RayLove/lua/lcode.c
+	"lprefix.h"
+	<float.h>
+	<limits.h>
+	<math.h>
+	<stdlib.h>
+	"lua.h"
+	"lcode.h"
+	"ldebug.h"
+	"ldo.h"
+	"lgc.h"
+	"llex.h"
+	"lmem.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+	"lstring.h"
+	"ltable.h"
+	"lvm.h"
+
+1642073080 /media/djoker/code/projects/RayLove/lua/lcode.h
+	"llex.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+
+1642073081 /media/djoker/code/projects/RayLove/lua/llex.h
+	<limits.h>
+	"lobject.h"
+	"lzio.h"
+
+1642073082 /media/djoker/code/projects/RayLove/lua/lopcodes.h
+	"llimits.h"
+
+1642073082 /media/djoker/code/projects/RayLove/lua/lparser.h
+	"llimits.h"
+	"lobject.h"
+	"lzio.h"
+
+1642073081 source:/media/djoker/code/projects/RayLove/lua/ldebug.c
+	"lprefix.h"
+	<stdarg.h>
+	<stddef.h>
+	<string.h>
+	"lua.h"
+	"lapi.h"
+	"lcode.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lvm.h"
+
+1642073081 source:/media/djoker/code/projects/RayLove/lua/ldo.c
+	"lprefix.h"
+	<setjmp.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lapi.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lundump.h"
+	"lvm.h"
+	"lzio.h"
+
+1642073081 source:/media/djoker/code/projects/RayLove/lua/ldump.c
+	"lprefix.h"
+	<stddef.h>
+	"lua.h"
+	"lobject.h"
+	"lstate.h"
+	"lundump.h"
+
+1642073081 source:/media/djoker/code/projects/RayLove/lua/lfunc.c
+	"lprefix.h"
+	<stddef.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+
+1642073081 source:/media/djoker/code/projects/RayLove/lua/lgc.c
+	"lprefix.h"
+	<stdio.h>
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+
+1642073081 source:/media/djoker/code/projects/RayLove/lua/liolib.c
+	"lprefix.h"
+	<ctype.h>
+	<errno.h>
+	<locale.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+	<sys/types.h>
+
+1642073081 source:/media/djoker/code/projects/RayLove/lua/llex.c
+	"lprefix.h"
+	<locale.h>
+	<string.h>
+	"lua.h"
+	"lctype.h"
+	"ldebug.h"
+	"ldo.h"
+	"lgc.h"
+	"llex.h"
+	"lobject.h"
+	"lparser.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"lzio.h"
+
+1642073081 source:/media/djoker/code/projects/RayLove/lua/lmathlib.c
+	"lprefix.h"
+	<float.h>
+	<limits.h>
+	<math.h>
+	<stdlib.h>
+	<time.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1642073081 source:/media/djoker/code/projects/RayLove/lua/lmem.c
+	"lprefix.h"
+	<stddef.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+
+1642073082 source:/media/djoker/code/projects/RayLove/lua/loadlib.c
+	"lprefix.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+	<dlfcn.h>
+	<windows.h>
+
+1642073082 source:/media/djoker/code/projects/RayLove/lua/lobject.c
+	"lprefix.h"
+	<locale.h>
+	<math.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lctype.h"
+	"ldebug.h"
+	"ldo.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"lvm.h"
+
+1642073082 source:/media/djoker/code/projects/RayLove/lua/lopcodes.c
+	"lprefix.h"
+	"lopcodes.h"
+
+1642073082 source:/media/djoker/code/projects/RayLove/lua/loslib.c
+	"lprefix.h"
+	<errno.h>
+	<locale.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+	<unistd.h>
+
+1642073082 source:/media/djoker/code/projects/RayLove/lua/lparser.c
+	"lprefix.h"
+	<limits.h>
+	<string.h>
+	"lua.h"
+	"lcode.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"llex.h"
+	"lmem.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lparser.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+
+1642073082 source:/media/djoker/code/projects/RayLove/lua/lstate.c
+	"lprefix.h"
+	<stddef.h>
+	<string.h>
+	"lua.h"
+	"lapi.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"llex.h"
+	"lmem.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	<time.h>
+
+1642073082 source:/media/djoker/code/projects/RayLove/lua/lstring.c
+	"lprefix.h"
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+
+1642073082 source:/media/djoker/code/projects/RayLove/lua/lstrlib.c
+	"lprefix.h"
+	<ctype.h>
+	<float.h>
+	<limits.h>
+	<locale.h>
+	<math.h>
+	<stddef.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1642073082 source:/media/djoker/code/projects/RayLove/lua/ltable.c
+	"lprefix.h"
+	<math.h>
+	<limits.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lgc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"lvm.h"
+
+1642073082 source:/media/djoker/code/projects/RayLove/lua/ltablib.c
+	"lprefix.h"
+	<limits.h>
+	<stddef.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+	<time.h>
+
+1642073082 source:/media/djoker/code/projects/RayLove/lua/ltm.c
+	"lprefix.h"
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lgc.h"
+	"lobject.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lvm.h"
+
+1642073083 source:/media/djoker/code/projects/RayLove/lua/lua.c
+	"lprefix.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<signal.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+	<unistd.h>
+	<io.h>
+	<windows.h>
+	<readline/readline.h>
+	<readline/history.h>
+
+1636044148 source:/media/djoker/code/projects/RayLove/lua/luac.c
+	"lprefix.h"
+	<ctype.h>
+	<errno.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"ldebug.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lopnames.h"
+	"lstate.h"
+	"lundump.h"
+
+1642073082 /media/djoker/code/projects/RayLove/lua/lopnames.h
+	<stddef.h>
+
+1642073083 source:/media/djoker/code/projects/RayLove/lua/lundump.c
+	"lprefix.h"
+	<limits.h>
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lmem.h"
+	"lobject.h"
+	"lstring.h"
+	"lundump.h"
+	"lzio.h"
+
+1642073083 source:/media/djoker/code/projects/RayLove/lua/lutf8lib.c
+	"lprefix.h"
+	<assert.h>
+	<limits.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1642073083 source:/media/djoker/code/projects/RayLove/lua/lvm.c
+	"lprefix.h"
+	<float.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lua.h"
+	"ldebug.h"
+	"ldo.h"
+	"lfunc.h"
+	"lgc.h"
+	"lobject.h"
+	"lopcodes.h"
+	"lstate.h"
+	"lstring.h"
+	"ltable.h"
+	"ltm.h"
+	"lvm.h"
+	"ljumptab.h"
+
+1642073081 /media/djoker/code/projects/RayLove/lua/ljumptab.h
+
+1642073083 source:/media/djoker/code/projects/RayLove/lua/lzio.c
+	"lprefix.h"
+	<string.h>
+	"lua.h"
+	"llimits.h"
+	"lmem.h"
+	"lstate.h"
+	"lzio.h"
+
+1650213807 source:/media/djoker/code/projects/RayLove/modules/l_audio.c
+	"luaobj.h"
+
+1650697202 /media/djoker/code/projects/RayLove/include/luaobj.h
+	<stdint.h>
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+
+1650652030 source:/media/djoker/code/projects/RayLove/modules/l_event.c
+	"miniray.h"
+	"lovesdl.h"
+	"luaobj.h"
+
+1650649340 /media/djoker/code/projects/RayLove/include/miniray.h
+	<SDL2/SDL.h>
+	<stdarg.h>
+	<stdbool.h>
+	<stdbool.h>
+
+1650221423 /media/djoker/code/projects/RayLove/include/lovesdl.h
+	"miniray.h"
+	"dmt.h"
+	"luaobj.h"
+	<SDL2/SDL.h>
+	<stdbool.h>
+
+1650197309 /media/djoker/code/projects/RayLove/include/dmt.h
+	<stdio.h>
+
+1650198778 source:/media/djoker/code/projects/RayLove/modules/l_filesystem.c
+	"lovesdl.h"
+	"filesystem.h"
+	"luaobj.h"
+	<sys/stat.h>
+	<dirent.h>
+
+1494059526 /media/djoker/code/projects/RayLove/include/filesystem.h
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+
+1650217045 source:/media/djoker/code/projects/RayLove/modules/l_font.c
+	"miniray.h"
+	"luaobj.h"
+	"lovesdl.h"
+	"font_ttf.h"
+
+1649964463 /media/djoker/code/projects/RayLove/modules/font_ttf.h
+
+1650651562 source:/media/djoker/code/projects/RayLove/modules/l_graphics.c
+	<string.h>
+	<stdlib.h>
+	"dmt.h"
+	"miniray.h"
+	"lovesdl.h"
+	"luaobj.h"
+
+1650219341 source:/media/djoker/code/projects/RayLove/modules/l_image.c
+	"miniray.h"
+	"lovesdl.h"
+	"luaobj.h"
+
+1650048082 source:/media/djoker/code/projects/RayLove/modules/l_keyboard.c
+	"luaobj.h"
+	"lovesdl.h"
+	<string.h>
+	<ctype.h>
+
+1650214199 source:/media/djoker/code/projects/RayLove/modules/l_love.c
+	"lovesdl.h"
+	"luaobj.h"
+
+1650045226 source:/media/djoker/code/projects/RayLove/modules/l_mouse.c
+	"luaobj.h"
+	"lovesdl.h"
+
+1650218136 source:/media/djoker/code/projects/RayLove/modules/l_quad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"luaobj.h"
+	"lovesdl.h"
+
+1650213844 source:/media/djoker/code/projects/RayLove/modules/l_source.c
+	<string.h>
+	"cmixer.h"
+	"filesystem.h"
+	"luaobj.h"
+
+1494059526 /media/djoker/code/projects/RayLove/include/cmixer.h
+
+1650200904 source:/media/djoker/code/projects/RayLove/modules/l_system.c
+	<windows.h>
+	<unistd.h>
+	<mach-o/dyld.h>
+	"luaobj.h"
+	"lovesdl.h"
+
+1650102520 source:/media/djoker/code/projects/RayLove/modules/l_timer.c
+	<windows.h>
+	<sys/time.h>
+	<time.h>
+	"luaobj.h"
+	"lovesdl.h"
+
+1650198924 source:/media/djoker/code/projects/RayLove/src/cmixer.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"dmt.h"
+	"cmixer.h"
+	"stb_vorbis.c"
+
+1650214400 source:/media/djoker/code/projects/RayLove/src/core.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<math.h>
+	<sys/stat.h>
+	"dmt.h"
+
+1650197956 source:/media/djoker/code/projects/RayLove/src/dmt.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"dmt.h"
+	<execinfo.h>
+
+1650197389 source:/media/djoker/code/projects/RayLove/src/filesystem.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	<dirent.h>
+	<sys/stat.h>
+	<SDL2/SDL.h>
+	"microtar.h"
+	"filesystem.h"
+	"dmt.h"
+
+1650100784 /media/djoker/code/projects/RayLove/include/microtar.h
+	<stdio.h>
+	<stdlib.h>
+
+1650201805 source:/media/djoker/code/projects/RayLove/src/luaobj.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"luaobj.h"
+
+1494059526 source:/media/djoker/code/projects/RayLove/src/microtar.c
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<string.h>
+	"microtar.h"
+
+1650649437 source:/media/djoker/code/projects/RayLove/src/miniray.c
+	"miniray.h"
+	<stdlib.h>
+	<stdio.h>
+	<stdarg.h>
+	<string.h>
+	"config.h"
+	"raymath.h"
+	"rgestures.h"
+	"rcamera.h"
+	"external/msf_gif.h"
+	"external/sinfl.h"
+	"external/sdefl.h"
+	<unistd.h>
+	<sys/syslimits.h>
+	<mach-o/dyld.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<math.h>
+	<sys/stat.h>
+	"external/dirent.h"
+	<dirent.h>
+	<direct.h>
+	<io.h>
+	<unistd.h>
+	<sys/time.h>
+	<unistd.h>
+	<EGL/egl.h>
+	<sys/time.h>
+	<emscripten/emscripten.h>
+	<emscripten/html5.h>
+	"external/stb_rect_pack.h"
+	"external/stb_truetype.h"
+	<math.h>
+	<float.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<stdio.h>
+	"external/stb_image.h"
+	"external/qoi.h"
+	"external/stb_image_write.h"
+	"external/stb_image_resize.h"
+	<SDL2/SDL_opengl.h>
+	<SDL2/SDL_opengl_glext.h>
+	<SDL2/SDL_opengles2.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"external/tinyobj_loader_c.h"
+	"external/cgltf.h"
+	"external/vox_loader.h"
+	"external/par_shapes.h"
+	<direct.h>
+	<unistd.h>
+	<windows.h>
+	<objbase.h>
+	<mmreg.h>
+	<mmsystem.h>
+	"propidl.h"
+	"external/miniaudio.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"external/stb_vorbis.h"
+	"external/jar_xm.h"
+	"external/jar_mod.h"
+	"external/dr_wav.h"
+	"external/dr_mp3.h"
+	"external/dr_flac.h"
+
+1650099838 /media/djoker/code/projects/RayLove/include/config.h
+
+1649693623 /media/djoker/code/projects/RayLove/include/raymath.h
+	<math.h>
+
+1649693623 /media/djoker/code/projects/RayLove/include/rgestures.h
+	<stdbool.h>
+	<sys/time.h>
+	<time.h>
+	<math.h>
+	<mach/clock.h>
+	<mach/mach.h>
+
+1649693623 /media/djoker/code/projects/RayLove/include/rcamera.h
+	<math.h>
+
+1649693623 /media/djoker/code/projects/RayLove/include/external/msf_gif.h
+	"msf_gif.h"
+	<stdint.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<intrin.h>
+	<emmintrin.h>
+
+1649693623 /media/djoker/code/projects/RayLove/include/external/sinfl.h
+	<string.h>
+	<assert.h>
+	<emmintrin.h>
+	<arm_neon.h>
+
+1649693623 /media/djoker/code/projects/RayLove/include/external/sdefl.h
+	<assert.h>
+	<string.h>
+	<limits.h>
+
+1649693623 /media/djoker/code/projects/RayLove/include/external/dirent.h
+	<io.h>
+	<stdlib.h>
+	<string.h>
+	<errno.h>
+
+1649693623 /media/djoker/code/projects/RayLove/include/external/stb_rect_pack.h
+	<stdlib.h>
+	<assert.h>
+
+1649693623 /media/djoker/code/projects/RayLove/include/external/stb_truetype.h
+	"stb_truetype.h"
+	<stdio.h>
+	"stb_truetype.h"
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<string.h>
+
+1649693623 /media/djoker/code/projects/RayLove/include/external/stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1649693623 /media/djoker/code/projects/RayLove/include/external/qoi.h
+	"qoi.h"
+	<stdlib.h>
+	<string.h>
+	<stdio.h>
+
+1649693623 /media/djoker/code/projects/RayLove/include/external/stb_image_write.h
+	<stdlib.h>
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<assert.h>
+
+1649693623 /media/djoker/code/projects/RayLove/include/external/stb_image_resize.h
+	"stb_image_resize.h"
+	<stdint.h>
+	<assert.h>
+	<string.h>
+	<math.h>
+	<stdlib.h>
+
+1649693623 /media/djoker/code/projects/RayLove/include/external/tinyobj_loader_c.h
+	<stdio.h>
+	<assert.h>
+	<string.h>
+	<errno.h>
+	<stdlib.h>
+
+1649693623 /media/djoker/code/projects/RayLove/include/external/cgltf.h
+	<stddef.h>
+	<stdint.h>
+	<string.h>
+	<stdio.h>
+	<limits.h>
+	<float.h>
+	<stdlib.h>
+
+1649693623 /media/djoker/code/projects/RayLove/include/external/vox_loader.h
+	"vox_loader.h"
+	<string.h>
+	<stdlib.h>
+
+1649693623 /media/djoker/code/projects/RayLove/include/external/par_shapes.h
+	<stdint.h>
+	<stdbool.h>
+	<stdbool.h>
+	<stdlib.h>
+	<stdio.h>
+	<assert.h>
+	<float.h>
+	<string.h>
+	<math.h>
+	<errno.h>
+
+1649693623 /media/djoker/code/projects/RayLove/include/external/miniaudio.h
+	"miniaudio.h"
+	"miniaudio.h"
+	"extras/stb_vorbis.c"
+	"miniaudio.h"
+	"extras/stb_vorbis.c"
+	<stddef.h>
+	<stdint.h>
+	<pthread.h>
+	<stdalign.h>
+	<stdarg.h>
+	<assert.h>
+	<limits.h>
+	<math.h>
+	<stdarg.h>
+	<stdio.h>
+	<strings.h>
+	<wchar.h>
+	<float.h>
+	<windows.h>
+	<stdlib.h>
+	<string.h>
+	<sched.h>
+	<sys/time.h>
+	<pthread.h>
+	<sys/stat.h>
+	<emscripten/emscripten.h>
+	<stdint.h>
+	<immintrin.h>
+	<emmintrin.h>
+	<arm_neon.h>
+	<intrin.h>
+	<errno.h>
+	<stdint.h>
+	<intrin.h>
+	<objbase.h>
+	<mmreg.h>
+	<mmsystem.h>
+	<mach/mach_time.h>
+	<sys/types.h>
+	<unistd.h>
+	<dlfcn.h>
+	<audioclient.h>
+	<mmdeviceapi.h>
+	<mmdeviceapi.h>
+	<poll.h>
+	<sys/eventfd.h>
+	<alsa/asoundlib.h>
+	<errno.h>
+	<pulse/pulseaudio.h>
+	<jack/jack.h>
+	<TargetConditionals.h>
+	<CoreAudio/CoreAudio.h>
+	<AVFoundation/AVFoundation.h>
+	<AudioToolbox/AudioToolbox.h>
+	<fcntl.h>
+	<sys/audioio.h>
+	<sys/soundcard.h>
+	<fcntl.h>
+	<poll.h>
+	<errno.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<sys/ioctl.h>
+	<sys/audioio.h>
+	<sys/param.h>
+	<sys/ioctl.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/soundcard.h>
+	<SLES/OpenSLES.h>
+	<SLES/OpenSLES_Android.h>
+	<emscripten/emscripten.h>
+	<stddef.h>
+	<stddef.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<stdio.h>
+	<wchar.h>
+	<assert.h>
+	<errno.h>
+	<endian.h>
+	<stdlib.h>
+	<string.h>
+	<smmintrin.h>
+	<emmintrin.h>
+	<arm_neon.h>
+	<intrin.h>
+	<assert.h>
+	<intrin.h>
+	<stdio.h>
+	<wchar.h>
+	<errno.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<intrin.h>
+	<emmintrin.h>
+	<arm_neon.h>
+	<assert.h>
+	<math.h>
+	<stdio.h>
+	<wchar.h>
+	<errno.h>
+
+1649693623 /media/djoker/code/projects/RayLove/include/external/stb_vorbis.h
+	<stdio.h>
+	"utils.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<math.h>
+	<malloc.h>
+	<alloca.h>
+	<limits.h>
+	<crtdbg.h>
+
+1649693623 /media/djoker/code/projects/RayLove/include/external/jar_xm.h
+	<stdint.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	<string.h>
+	<stdio.h>
+	"raylib.h"
+
+1649693623 /media/djoker/code/projects/RayLove/include/external/jar_mod.h
+	<stdio.h>
+	<stdlib.h>
+
+1649693623 /media/djoker/code/projects/RayLove/include/external/dr_wav.h
+	"dr_wav.h"
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<stdio.h>
+	<wchar.h>
+	<assert.h>
+	<errno.h>
+
+1649693623 /media/djoker/code/projects/RayLove/include/external/dr_mp3.h
+	"dr_mp3.h"
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<intrin.h>
+	<emmintrin.h>
+	<arm_neon.h>
+	<assert.h>
+	<math.h>
+	<stdio.h>
+	<wchar.h>
+	<errno.h>
+
+1649693623 /media/djoker/code/projects/RayLove/include/external/dr_flac.h
+	"dr_flac.h"
+	<stddef.h>
+	<endian.h>
+	<stdlib.h>
+	<string.h>
+	<smmintrin.h>
+	<emmintrin.h>
+	<arm_neon.h>
+	<intrin.h>
+	<assert.h>
+	<intrin.h>
+	<stdio.h>
+	<wchar.h>
+	<errno.h>
+
+1650697210 source:/media/djoker/code/projects/RayLove/src/main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<time.h>
+	"miniray.h"
+	"lovesdl.h"
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+	"nogame_lua.h"
+	"boot_lua.h"
+
